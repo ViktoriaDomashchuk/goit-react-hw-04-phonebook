@@ -52,7 +52,7 @@ export const App = () => {
   };
 
   useEffect(() => {
-    if (contacts.lengt === 0) return;
+    if (contacts.length === 0) return;
     localStorage.setItem('contacts', JSON.stringify(contacts));
   }, [contacts]);
   
